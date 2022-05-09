@@ -1,0 +1,28 @@
+{
+  "name": "nginx-php-slim-nuxt",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt generate",
+    "test": "npm run lint && jest",
+    "lint": "eslint . --ext .js,.vue",
+    "lint:fix": "npm run lint -- --fix"
+  },
+  "dependencies": {
+    "core-js": "^3.8.3",
+    "nuxt": "^2.14.12",
+    "vue-i18n": "^8.27.1"
+  },
+  "devDependencies": {
+    "@nuxtjs/axios": "^5.13.1",
+    "@nuxtjs/vuetify": "^1.11.3",
+    "@vue/test-utils": "^1.1.2",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "^26.6.3",
+    "eslint": "^7.22.0",
+    "eslint-plugin-vue": "^7.7.0",
+    "jest": "^26.6.3",
+    "vue-jest": "^3.0.4"
+  }
+}
