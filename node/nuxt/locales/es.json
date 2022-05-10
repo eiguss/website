@@ -1,5 +1,21 @@
 {
     "header": {
-        "title" : "Atikarooms"
+        "title" : "Atikarooms",
+        "navigation": {
+            "bookYourRoom": "Reserva tu habitación",
+            "landlords": "Propietarios",
+            "contact": "Contacto"
+        }
+    },
+    "footer": {
+        "rightsReserved":"Atika Rooms, All Rights Reserved.",
+        "navigation": {
+            "bookYourRoom": "Reserva tu habitación",
+            "about": "Sobre nosotros",
+            "landlords": "Propietarios",
+            "contact": "Contacto",
+            "termsConditions": "Términos y condiciones",
+            "policies": "Política de privacidad"
+        }
     }
 }

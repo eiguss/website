@@ -1,0 +1,33 @@
+.v-application {
+    .v-toolbar {
+        .v-toolbar__content{
+            margin: 0 60px;
+        }
+    }
+    .v-menu__content{
+        .v-list{
+            .v-list-item__title.active{
+                color: $complementary;
+                cursor: initial;
+            }
+        }
+    }
+    footer {
+        .v-icon{
+            color: white;
+            &.mdi-copyright{
+                padding-bottom: 4px;
+                font-size: 14px;
+            }
+        }
+    }
+    .greyB{
+        background-color: $greyB!important;
+    }
+    .white-background{
+        background-color: white!important;
+    }
+    .width-100{
+        width: 100%;
+    }
+}
