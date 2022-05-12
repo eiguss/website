@@ -1,8 +1,9 @@
 <template>
     <v-app>
         <app-header></app-header>
+        <app-sidebar></app-sidebar>
         <v-main>
-            <v-container>
+            <v-container fluid>
                 <Nuxt />
             </v-container>
         </v-main>
@@ -14,10 +15,12 @@
 import { mapGetters } from 'vuex';
 import appHeader from '../components/header.vue';
 import appFooter from '../components/footer.vue';
+import appSidebar from '../components/sidebar.vue';
 export default {
     components: {
         appHeader,
         appFooter,
+        appSidebar,
     },
     computed: {
     },

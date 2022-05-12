@@ -10,9 +10,9 @@ export const state = () => ({
         { title: 'bookYourRoom', path: '/search-room' },
         { title: 'landlords', path: '/landlords' },
         { title: 'contact', path: '/contact' },
-        { title: 'about', path: '/about' },
         { title: 'termsConditions', path: '/terms-and-conditions' },
         { title: 'policies', path: '/privacy-policy' },
+        { title: 'about', path: '/about' },
     ],
     locale:'en',
     locales: {

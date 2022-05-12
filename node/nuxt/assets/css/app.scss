@@ -1,7 +1,22 @@
 .v-application {
+    font-family: Poppins, "Roboto", sans-serif;
+    .v-main{
+        .container{
+            .text-page{
+                max-width: 80%;
+                margin: 0 auto;
+                padding: 20px 0 40px 0;
+            }
+        }
+    }
     .v-toolbar {
         .v-toolbar__content{
             margin: 0 60px;
+            .v-toolbar__items{
+                .v-btn__content{
+                    text-transform: none;
+                }
+            }
         }
     }
     .v-menu__content{
@@ -21,7 +36,8 @@
             }
         }
         .footer-container{
-            max-width: 80%;
+            max-width: 1400px;
+            width: 80%;
             margin: 0 auto;
         }
     }

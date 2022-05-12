@@ -4,10 +4,7 @@
         padless
     >
         <div class="footer-container">
-            <v-row
-                justify="center width-100"
-                no-gutters
-            > 
+            <v-row justify="center" no-gutters>
                 <v-btn
                     v-for="footerItem in footerItems"
                     :key="footerItem.title"
@@ -17,13 +14,10 @@
                     class="my-2"
                     :to="footerItem.path"
                 >
-                    {{ $t('footer.navigation.'+footerItem.title) }}
+                    {{ $t('navigation.'+footerItem.title) }}
                 </v-btn>
             </v-row>
-            <v-row
-                justify="center"
-                no-gutters
-            > 
+            <v-row no-gutters>
                 <v-col
                     class="pt-8 pb-6 white--text"
                     cols="6"

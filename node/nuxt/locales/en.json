@@ -1,21 +1,50 @@
 {
     "header": {
-        "title" : "Atikarooms",
-        "navigation": {
-            "bookYourRoom": "Book your room",
-            "landlords": "Landlords",
-            "contact": "Contact"
-        }
+        "title" : "Atikarooms"
     },
     "footer": {
-        "rightsReserved":"Atika Rooms, All Rights Reserved.",
-        "navigation": {
-            "bookYourRoom": "Book your room",
-            "about": "About us",
-            "landlords": "Landlords",
-            "contact": "Contact",
-            "termsConditions": "Term and conditions",
-            "policies": "Privacy policy"
-        }
+        "rightsReserved":"Atika Rooms, All Rights Reserved."
+    },
+    "navigation": {
+        "bookYourRoom": "Book your room",
+        "about": "About us",
+        "landlords": "Landlords",
+        "contact": "Contact us",
+        "termsConditions": "Term and conditions",
+        "policies": "Privacy policy"
+    },
+    "termsConditions": {
+        "title": "Terms and conditions",
+        "subTitle1": "Cominicación vía online",
+        "subTitle2": "Políticas de reserva",
+        "subTitle3": "Políticas de cancelación",
+        "subTitle4": "Reglas de la casa",
+        "paragraph1-1": "Al aceptar las presentes condiciones, términos y políticas y, en especial, al remitir el usuario sus datos de carácter personal a Atika Rooms, SL, éste consiente expresamente que Atika Rooms, SL realice las siguientes actividades y/o acciones, salvo que indique lo contrario al contratar o suscribir cualquier producto y/o servicio de Atika Rooms, SL o a resultas de una revocación posterior del consentimiento inicialmente otorgado:",
+        "paragraph1-2":"- El envío de comunicaciones comerciales por vía electrónica, informando a los usuarios de las actividades, promociones, publicidad, noticias, ofertas y demás información sobre los servicios y productos de Atika Rooms, SL iguales o similares a los que fueron inicialmente objeto de contratación o de interés por el usuario.",
+        "paragraph1-3":"- La conservación de los datos durante los plazos previstos en las disposiciones aplicables.",
+        "paragraph1-4":"Sin perjuicio de todo lo anterior, no se considerará comunicación comercial y/o publicitaria toda aquella información enviada por Atika Rooms, SL -incluso por medios electrónicos- a los usuarios de Atika Rooms, SL con la finalidad de llevar a cabo, ejecutar y/o desarrollar cualquier prestación suscrita o contratada -aun cuando no fuese suscrita por medios  electrónicos- por el usuario y todas las demás tareas, acciones y/o actividades derivadas de dicha relación contractual y/o comercial.",
+        "paragraph1-5":"El interesado podrá revocar su consentimiento a la recepción de comunicaciones comerciales, enviando una carta a Atika Rooms, SL, en el domicilio c. Muntaner 79, 4º 1º A, 08011, Barcelona o por correo electrónico a la dirección <a href = \"mailto:atikarooms@gmail.com\">atikarooms@gmail.com</a> con el asunto \"BAJA\".",
+        "paragraph2-1":"<b>El precio</b> de las habitaciones es mensual (32 noches), se cobra por meses completos que pueden empezar del día 1 o 15 de mes. ",
+        "paragraph2-2":"<b>El precio para parejas</b> de las habitaciones es mensual (32 noches), se cobra por meses completos que pueden empezar del día 1 o 15 de mes y se suman 100€ al precio de la renta por costos extra de suministros, limpieza y gestión.",
+        "paragraph2-3":"<b>Depósito de Seguridad:</b> Para reservas de hasta 4 meses pedimos  el equivalente a un mes de renta como depósito. Para reservas superiores a 4 meses pedimos 2 meses de renta como depósito. El depósito será devuelto a la cuenta bancaria que nos facilite el inquilino entre 2 y 7 días hábiles después de dejar la habitación.  ",
+        "paragraph2-4":"<b>Tipo de contrato:</b> El tipo de contrato es de mínimo un mes (32 noches) y máximo 11 meses. Está la opción de extender contrato por un costo extra de 50€ y siempre bajo disponibilidad. También se puede pedir cambio de habitación con un pago extra de 50€ la gestión. ",
+        "paragraph2-5":"<b>Firma de contrato:</b> Una vez efectuada la transferencia del depósito o confirmado el pago del total de la reserva, te enviamos el contrato a tu email y podrás firmarlo digitalmente en la plataforma de SignNow.",
+        "paragraph2-6":"<b>Gastos de Gestión:</b> Por estancias de 1 a 3 meses, los gastos de gestión serán de 100€. Por estancias de 4 a 6 meses, los gastos de gestión serán de 200€. Y por estancias de 7 a 11 meses, los gastos de gestión serán de 300€. Estos gastos de gestión son por concepto de gastos administrativos como el registro del contrato, matrícula, limpieza inicial y final de la casa, seguros de la propiedad y los gastos de mantenimiento adicionales derivados de la gestión de la propiedad. Para cualquier reserva este cobro de los gastos de gestión se descuenta del depósito al finalizar el contrato. Este pago solo se cobra una sola vez. ",
+        "paragraph2-7":"<b>Forma de pago:</b> Transferencia bancaria o link de pago online.",
+        "paragraph2-8":"<b>Pre-reserva:</b> Se puede hacer una pre-reserva con un pago de 300€ y tienes 48h para realizar el resto del depósito por transferencia o link de pago online. ",
+        "paragraph2-9":"<b>Reserva de la habitación:</b> La reserva completa de la habitación consta del depósito de seguridad de 1 o 2 mensualidades dependiendo de la estancia. ",
+        "paragraph2-10":"<b>Entrega de llaves:</b> En el apartamento en el momento del check-in acordado con entre el cliente y el agente comercial de Atika Rooms.",
+        "paragraph2-11":"<b>Check in:</b> En el apartamento en días laborables de 12:00 y hasta las 18:00. Después de esta hora es posible hacer late check-in con un cargo extra de 50€ y si es día festivo 80€. ",
+        "paragraph2-12":"<b>Check out:</b> Hasta las 12h. Cada hora extra que el inquilino pase en el apartamento tiene un costo de 10€ y máximo hasta la 14h.",
+        "paragraph3-1":"Siempre podrás cancelar tu reserva.",
+        "paragraph3-2":"<b>Caso 1:</b> Si lo haces con más de 30 días antes de la fecha de entrada, te devolveremos la totalidad del depósito (descontando los gastos de gestión).",
+        "paragraph3-3":"<b>Caso 2: </b>Si quedan menos de 30 días pero más de 15 días, te descontaremos una mensualidad y los gastos de gestión y se devolverá la parte restante del depósito.",
+        "paragraph3-4":"<b>Caso 3:</b> Si quedan menos de 15 días no haremos ninguna devolución.",
+        "paragraph3-5":"Si tu solicitud de reserva todavía no ha sido aceptada por el equipo de Atika Rooms, podrás cancelarla sin ningún tipo de penalización.",
+        "paragraph4-1":"- Las fiestas están prohibidas.",
+        "paragraph4-2":"- Se pide evitar el ruido después de las 22:00h.",
+        "paragraph4-3":"- Respetar a los vecinos y compañeros de piso.",
+        "paragraph4-4":"- Las mascotas no están permitidas.",
+        "paragraph4-5":"- No está permitido fumar dentro del apartamento."
     }
 }

@@ -1,6 +1,9 @@
 <template>
-<div>
-    <v-toolbar>
+<v-app-bar
+    app
+    color="white"
+    elevate-on-scroll
+>   
         <v-toolbar-title>
             <a href="/">
                 <img class="logo" src="~/assets/images/main-logo2.png" >
@@ -12,8 +15,10 @@
                 v-for="item in navigationItems"
                 :key="item.title"
                 :to="item.path"
+                text
+                rounded
             >
-            {{ $t('header.navigation.'+item.title) }}
+            {{ $t('navigation.'+item.title) }}
             </v-btn>
         </v-toolbar-items>
         <v-app-bar-nav-icon 
@@ -48,27 +53,8 @@
                     </v-list-item-title>
                 </v-list-item>
             </v-list>
-        </v-menu>
-    </v-toolbar>
-    <v-navigation-drawer
-        class="hidden-lg-and-up"
-        v-model="showSidebar"
-        absolute
-        temporary
-    >
-        <v-list dense>
-            <v-list-item
-                v-for="(item, key) in navigationItems"
-                :key="key"
-                :to="item.path"
-            >
-                <v-list-item-title>
-                    {{$t('header.navigation.'+item.title)}}
-                </v-list-item-title>
-            </v-list-item>
-        </v-list>
-    </v-navigation-drawer>
-</div>
+        </v-menu> 
+</v-app-bar>
 </template>
 
 <script>
