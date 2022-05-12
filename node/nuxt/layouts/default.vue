@@ -1,12 +1,13 @@
 <template>
     <v-app>
-        <app-header></app-header>
         <app-sidebar></app-sidebar>
+        <app-header></app-header>
         <v-main>
             <v-container fluid>
                 <Nuxt />
             </v-container>
         </v-main>
+        <v-divider class="footer__divider"></v-divider>
         <app-footer></app-footer>
     </v-app>
 </template>

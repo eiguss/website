@@ -1,11 +1,41 @@
 .v-application {
-    font-family: Poppins, "Roboto", sans-serif;
+    font-family: Poppins, "Roboto", sans-serif!important;
+    .footer__divider{
+        width: 75%;
+        margin: 0 auto;
+    }
+    .v-picker{
+        .v-picker__title{
+            background-color: $complementary!important;
+        }
+        .accent{
+            background-color: $complementary!important;
+        }
+        .accent--text{
+            color: $complementary!important;
+            caret-color: $complementary!important;
+        }
+    }
     .v-main{
         .container{
             .text-page{
                 max-width: 80%;
                 margin: 0 auto;
                 padding: 20px 0 40px 0;
+                h1{
+                    color: $corporative;
+                    font-weight: 300;
+                    padding: 15px 0;
+                }
+                h2{
+                    color: $complementary;
+                    font-weight: 400;
+                    padding: 20px 0;
+                }
+                p{
+                    line-height: 2;
+                    padding: 5px 0;
+                }
             }
         }
     }
@@ -27,9 +57,10 @@
             }
         }
     }
-    footer {
+    footer.v-footer {
+        background-color: white;
         .v-icon{
-            color: white;
+            color: gray;
             &.mdi-copyright{
                 padding-bottom: 4px;
                 font-size: 14px;

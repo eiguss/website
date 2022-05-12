@@ -15,7 +15,7 @@
     },
     "termsConditions": {
         "title": "Terms and conditions",
-        "subTitle1": "Cominicación vía online",
+        "subTitle1": "Comunicación vía online",
         "subTitle2": "Políticas de reserva",
         "subTitle3": "Políticas de cancelación",
         "subTitle4": "Reglas de la casa",
@@ -46,5 +46,19 @@
         "paragraph4-3":"- Respetar a los vecinos y compañeros de piso.",
         "paragraph4-4":"- Las mascotas no están permitidas.",
         "paragraph4-5":"- No está permitido fumar dentro del apartamento."
+    },
+    "privacyPolicy":{
+        "title": "Privacy policy",
+        "paragraph1":"Atika Rooms, SL, (Atika Rooms) being responsible for this website and in accordance with the provisions of Spanish Law 15/1999, of December 13, on Personal Data Protection (LOPD) and Spanish Law 34/2002 of July 11, on Services Information Society and Electronic Commerce (LSSICE), has implemented those policies, means and technical and organizational procedures being necessary to ensure and protect the confidentiality, integrity and availability of personal data of its users. These data shall be processed in a/some file/s duly registered with the Spanish Data Protection Agency, in accordance with the provisions of the legislation currently in force.",
+        "paragraph2":"In the event that the data to be supplied by the User were necessary for the team of Atika Rooms, SL to be able to i) answer queries, provide information required by the User; ii) provide the user with the services and/or with the products contracted or entered into by the user; iii) provide the user with access to certain features of the Website; or iv) carry out all activities of the Atika Rooms, SL hereby detailed, Atika Rooms, SL shall inform the User on that obligation and shall indicate what data are needed to be filled in. By means of indication, facilitation or introduction of such data and in accordance with the provisions of Article 6 of the LOPD, the User gives express consent to Atika Rooms, SL to proceed with the processing  of the data provided in support of the above mentioned purposes as well as for eventual sending of commercial communications of Atika Rooms, SL that may be of the user's interest.",
+        "paragraph3":"The entity being responsible for the database, as well as those involved in any phase of  processing and/or entities who have been notified on said data -in each case and under the corresponding authorization granted by the User, are required to observe professional secrecy and to adopt the levels of protection as well as all technical and organizational measures at their disposal that may be necessary to ensure the security of personal data, avoiding as far as possible, unauthorized access, illegal modifications, theft and / or loss of data, in order to ensure the appropriate level of security to the files of the Atika Rooms, SL, depending on the nature and sensitivity of the data provided by users of this Website. Likewise, Atika Rooms, SL is engaged to have implemented all security measures that may apply under the provisions of Development Regulation of the LOPD (RD 1720/2007).",
+        "paragraph4":"Under the mentioned Spanish Organic Law on Personal Data Protection users have the rights of access, rectification, cancellation and opposition and, if necessary, the right to revoke at any time their consent to receive commercial communications by sending an email to atikarooms@gmail.com or addressing a letter to c. Muntaner 79, 4º 1º A, 08011, Barcelona."
+    },
+    "aboutUs":{
+        "title": "About us",
+        "paragraph1":"Atika Rooms was created in 2022 with the aim of guaranteeing access to quality accommodation with services, to people from all over the world so that wherever you go, feel at home and enjoy your experiences to the fullest.",
+        "paragraph2":"We are a platform focused on offering quality accommodation that meets all kinds of needs you may have. From the need to have the best wifi on the market to the need to have your own private balcony where you can spend summer afternoons or sunbathe. ",
+        "paragraph3":"At Atika Rooms, we believe that there are few things more exciting and enriching than living new experiences and adventures around the world, and we want to help you live them, wherever and however you want! ",
+        "paragraph4":"We were born to take quality accommodation to the next level, so that together we can change the world."
     }
 }

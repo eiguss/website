@@ -2,8 +2,8 @@
     <v-navigation-drawer
         class="hidden-lg-and-up"
         v-model="showSidebar"
-        absolute
         temporary
+        app
     >
         <v-list dense>
             <v-list-item

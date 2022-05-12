@@ -14,8 +14,8 @@
         "policies": "Política de privacidad"
     },
     "termsConditions": {
-        "title": "Terms and conditions",
-        "subTitle1": "Cominicación vía online",
+        "title": "Términos y condiciones",
+        "subTitle1": "Comunicación vía online",
         "subTitle2": "Políticas de reserva",
         "subTitle3": "Políticas de cancelación",
         "subTitle4": "Reglas de la casa",
@@ -46,5 +46,19 @@
         "paragraph4-3":"- Respetar a los vecinos y compañeros de piso.",
         "paragraph4-4":"- Las mascotas no están permitidas.",
         "paragraph4-5":"- No está permitido fumar dentro del apartamento."
+    },
+    "privacyPolicy":{
+        "title": "Terms and conditions",
+        "paragraph1":"Atika Rooms, SL, (Atika Rooms) como responsable del presente Sitio Web y de conformidad con lo dispuesto por la Ley Orgánica 15/1999, de 13 de diciembre, de Protección de Datos de Carácter Personal (LOPD) y por la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y de Comercio Electrónico (LSSICE), ha puesto en práctica aquellas políticas, medios y procedimientos técnicos y organizativos para garantizar y proteger la confidencialidad, integridad y disponibilidad de los datos de carácter personal de sus usuarios. Estos datos serán tratados en un/os fichero/s debidamente inscrito/s en la Agencia Española de Protección de Datos, de conformidad con lo establecido en la legislación vigente.",
+        "paragraph2":"En el caso de que los datos a facilitar por el Usuario fueran necesarios para que el equipo de Atika Rooms, SL pudiera i) responder a las consultas, proporcionar informaciones requeridas por el Usuario; ii) realizar toda aquella prestación de servicios y/o productos contratados o suscritos por el Usuario; iii) proporcionar acceso al Usuario a determinadas funcionalidades del Sitio Web; o bien iv) realizar todas aquellas actividades propias de Atika Rooms, SL por la presente reseñadas, Atika Rooms, SL informará de dicha obligatoriedad al Usuario, indicándole qué datos son de necesaria cumplimentación. Mediante la indicación, facilitación o introducción de dichos datos y de conformidad con lo establecido en el artículo 6 de la L.O.P.D., el Usuario otorga consentimiento inequívoco a Atika Rooms, SL para que proceda al tratamiento de los datos facilitados en pro de los fines mencionados anteriormente así como para el eventual envío de comunicaciones comerciales de Atika Rooms, SL que puedan ser del interés del usuario.",
+        "paragraph3":"La entidad responsable de la base de datos, así como los que intervengan en cualquier fase del tratamiento y/o las entidades a quienes les hayan sido comunicadas -en su caso y en virtud de la correspondiente autorización conferida por el Usuario-, están obligadas a observar el secreto profesional y a adoptar los niveles de protección y las medidas técnicas y organizativas necesarias a su alcance que garanticen la seguridad de los datos de carácter personal, evitando, en la medida de lo posible, accesos no autorizados, modificaciones ilícitas, sustracciones y/o la pérdida de los datos, a fin de procurar el correspondiente nivel de seguridad a los ficheros de Atika Rooms, SL, según la naturaleza y sensibilidad de los datos facilitados por los usuarios del presente Sitio Web. Asimismo, Atika Rooms, SL se compromete a tener implementadas las medidas de seguridad que correspondan en virtud de lo establecido en el Reglamento de Desarrollo de la LOPD (Real Decreto 1720/2007).",
+        "paragraph4":"Los usuarios tienen reconocida por la indicada Ley Orgánica de Protección de Datos los derechos de acceso, rectificación, cancelación y oposición y, en su caso, el derecho a revocar en cualquier momento el consentimiento prestado a la recepción de comunicaciones comerciales mediante el envío de correo electrónico a atikarooms@gmail.com o carta a  c. Muntaner 79, 4º 1º A, 08011, Barcelona."
+    },
+    "aboutUs":{
+        "title": "Sobre nosotros",
+        "paragraph1":"Atika Rooms fue creada en 2022 con el objetivo de garantizar el acceso a alojamiento de calidad con servicios, a a gente de todo el mundo para que vayas donde vayas, te sientas como en casa y disfrutes al máximo de tus experiencias. ",
+        "paragraph2":"Somos una plataforma enfocada a ofrecer alojamiento de calidad que satisface todo tipo de necesidades que puedas tener. Desde la necesidad de tener el mejor wifi del mercado como la necesidad de tener un balcón propio y privado donde poder pasar las tardes de verano o tomar el sol. ",
+        "paragraph3":"En Atika Rooms, creemos que hay pocas cosas más emocionantes y enriquecedoras que vivir nuevas experiencias y aventuras alrededor del mundo, y nosotros queremos ayudarte a vivirlas, donde quieras y como quieras!  ",
+        "paragraph4":"Nacimos para llevar el alojamiento de calidad al siguiente nivel, para que juntos podamos cambiar el mundo."
     }
 }

@@ -1,14 +1,11 @@
 <template>
-    <v-footer
-        color="greyB"
-        padless
-    >
+    <v-footer white>
         <div class="footer-container">
             <v-row justify="center" no-gutters>
                 <v-btn
                     v-for="footerItem in footerItems"
                     :key="footerItem.title"
-                    color="white"
+                    color="black"
                     text
                     rounded
                     class="my-2"
@@ -19,20 +16,20 @@
             </v-row>
             <v-row no-gutters>
                 <v-col
-                    class="pt-8 pb-6 white--text"
+                    class="pt-8 pb-6"
                     cols="6"
                 >
                     <v-icon> mdi-copyright </v-icon>
                     {{ new Date().getFullYear() }} — {{$t('footer.rightsReserved')}}
                 </v-col>
                 <v-col
-                    class="py-6 white--text text-right"
+                    class="py-6 text-right"
                     cols="6"
                 >
                     <v-btn
                         v-for="item in socialMedia"
                         :key="item.icon"
-                        class="mx-4 white--text"
+                        class="mx-4"
                         :href="item.url"
                         icon
                     >
