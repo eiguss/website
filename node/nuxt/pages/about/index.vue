@@ -1,7 +1,38 @@
+<template>
+    <div class="about-us">
+        <text-page :labelsKey="labelsKey" :elements="elements" ></text-page>
+        <v-row>
+            <v-col cols="3" />
+            <v-col cols="3" class="text-center">
+                <v-btn
+                    depressed
+                    large
+                    color="primary"
+                    to="/landlords"
+                >
+                    {{$t('aboutUs.landlords')}}
+                </v-btn>
+            </v-col>
+            <v-col cols="3" class="text-center">
+                <v-btn
+                    depressed
+                    large
+                    color="primary"
+                    to="/search-room"
+                >
+                    {{$t('aboutUs.tenants')}}
+                </v-btn>
+            </v-col>
+            <v-col cols="3" />
+        </v-row>
+    </div>
+</template>
 <script>
-import textPageMixin from "@/mixins/textPageMixin.vue";
+import textPage from '~/components/textPage.vue';
 export default {
-    mixins: [textPageMixin],
+    components: {
+        textPage,
+    },
     data: function () {
         return {
             labelsKey: 'aboutUs',

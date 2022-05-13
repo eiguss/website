@@ -1,6 +1,5 @@
 <template>
     <div class="text-page">
-        
         <template 
             v-for="element in elements"
         >
@@ -11,3 +10,11 @@
         </template>
     </div>
 </template>
+<script>
+export default {
+    props: {
+        elements: Array,
+        labelsKey: String
+    }
+};
+</script>

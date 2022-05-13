@@ -1,7 +1,12 @@
+<template>
+    <text-page :labelsKey="labelsKey" :elements="elements" ></text-page>
+</template>
 <script>
-import textPageMixin from "@/mixins/textPageMixin.vue";
+import textPage from '~/components/textPage.vue';
 export default {
-    mixins: [textPageMixin],
+    components: {
+        textPage,
+    },
     data: function () {
         return {
             labelsKey: 'contact',

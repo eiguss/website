@@ -30,6 +30,10 @@
     }
     .v-main{
         .container{
+            .primary{
+                background-color: $complementary!important;
+                border-color: $complementary!important;
+            }
             .primary--text{
                 color: $complementary!important;
                 caret-color: $complementary!important;
