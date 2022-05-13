@@ -21,9 +21,17 @@
 <script>
 import { mapMutations, mapGetters, mapActions } from 'vuex';
 export default {
+    data: function () {
+        return {
+            navigationItems: [
+                { title: 'bookYourRoom', path: '/search-room' },
+                { title: 'landlords', path: '/landlords' },
+                { title: 'contact', path: '/contact' },
+            ],
+        }
+    },
     computed: {
         ...mapGetters('global', {
-            navigationItems: 'navigationItems',
             sidebarVisible: 'sidebarVisible',
         }),
         showSidebar: {
