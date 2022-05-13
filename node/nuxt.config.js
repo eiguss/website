@@ -21,6 +21,7 @@ export default {
     plugins: [
         '~/plugins/axios.js',
         '~/plugins/i18n.js',
+        '~/plugins/maps.js',
     ],
     loading: '~/components/Loading.vue',
     components: true,
@@ -46,6 +47,10 @@ export default {
                 }
             );
         }
+    },
+    env: {
+        baseUrl: process.env.BASE_URL || 'http://localhost:'+process.env.PORT_NODE,
+        maps_key: process.env.MAPS_KEY,
     },
     watchers: {
         webpack: {
