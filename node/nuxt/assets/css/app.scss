@@ -1,5 +1,17 @@
 .v-application {
     font-family: Poppins, "Roboto", sans-serif!important;
+    a.v-btn{
+        color:$complementary;
+        &:before{
+            background-color: inherit;
+        }
+        &--active{
+            .v-btn__content{
+                text-decoration: underline;
+                text-underline-offset: 10px;
+            }
+        }
+    }
     .footer__divider{
         width: 75%;
         margin: 0 auto;
@@ -59,8 +71,12 @@
     }
     footer.v-footer {
         background-color: white;
+        color: $footer-text!important;
+        a.v-btn{
+            color: $footer-text!important;
+        }
         .v-icon{
-            color: gray;
+            color: $footer-text;
             &.mdi-copyright{
                 padding-bottom: 4px;
                 font-size: 14px;
@@ -71,12 +87,6 @@
             width: 80%;
             margin: 0 auto;
         }
-    }
-    .greyB{
-        background-color: $greyB!important;
-    }
-    .white-background{
-        background-color: white!important;
     }
     .width-100{
         width: 100%;
