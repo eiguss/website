@@ -30,6 +30,10 @@
     }
     .v-main{
         .container{
+            .primary--text{
+                color: $complementary!important;
+                caret-color: $complementary!important;
+            }
             .text-page{
                 max-width: 80%;
                 margin: 0 auto;

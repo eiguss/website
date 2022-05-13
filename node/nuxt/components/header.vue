@@ -63,6 +63,7 @@ export default {
     data: function () {
         return {
             navigationItems: [
+                { title: 'home', path: '/' },
                 { title: 'bookYourRoom', path: '/search-room' },
                 { title: 'landlords', path: '/landlords' },
                 { title: 'contact', path: '/contact' },
