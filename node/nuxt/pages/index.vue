@@ -1,26 +1,20 @@
 <template>
     <div class="home-page">
-        <div class="home-page__base-image">
-            <v-img
-                max-height="800"
-                min-height="650"
-                :src="require('@/assets/images/home/home.jpg')"
-            >
-                <div class="title-img">
-                    <h1>{{$t('home.title')}}</h1>
-                </div>
-                <filters></filters>
-            </v-img>
-        </div>
-        
+        <base-image></base-image>
+        <customers-cards></customers-cards>
+        <our-accomodations></our-accomodations>
     </div>
 </template>
 
 <script>
-import filters from '~/components/home/filters.vue';
+import baseImage from '~/components/home/base-image.vue';
+import customersCards from '~/components/home/customers-cards.vue';
+import ourAccomodations from '~/components/home/our-accomodations.vue';
 export default {
     components: {
-        filters,
+        baseImage,
+        customersCards,
+        ourAccomodations,
     },
 }
 </script>

@@ -15,7 +15,18 @@
         "policies": "Política de privacidad"
     },
     "home":{
-        "title": "Alquila una vivienda compartida por meses en Barcelona"
+        "title": "Alquila una vivienda compartida por meses en Barcelona",
+        "landlordsTitle":"¿Eres propietario?",
+        "landlordsText":"Alquila sin riesgos y obtén la máxima rentabilidad por tu inmueble.",
+        "landlordsButton": "Alquilar mi propiedad",
+        "tenantTitle":"¿Buscas habitación?",
+        "tenantText":"Encuentra y reserva tu nuevo hogar compartido de forma segura.",
+        "TenantsButton": "Alquilar habitación",
+        "ourAccomodationsTitle":"Nuestros Alojamientos",
+        "ourAccomodations1":"Habitación doble con baño privado",
+        "ourAccomodations2":"Habitación exterior con baño privado y balcón",
+        "ourAccomodations3":"Habitación interior con cama doble y galería",
+        "ourAccomodations4":"Habitación interior con cama doble y baño privado"
     },
     "termsConditions": {
         "title": "Términos y condiciones",

@@ -15,7 +15,18 @@
         "policies": "Privacy policy"
     },
     "home":{
-        "title": "Rent a shared house for months in Barcelona"
+        "title": "Rent a shared house for months in Barcelona",
+        "landlordsTitle": "Are you a landlord?",
+        "landlordsText": "Rent without risks and get the maximum return for your property.",
+        "landlordsButton": "Rent my property",
+        "tenantsTitle":"Looking for a room?",
+        "tenantsText":"Find and book your new shared home securely.",
+        "tenantsButton": "Rent a room",
+        "ourAccomodationsTitle":"Our Accommodations",
+        "ourAccomodations1":"Room with private bathroom",
+        "ourAccomodations2":"Exterior room with private bathroom and balcony",
+        "ourAccomodations3":"Interior room with queen bed and gallery",
+        "ourAccomodations4":"Interior room with queen bed and gallery with private bathroom"
     },
     "termsConditions": {
         "title": "Terms and conditions",
