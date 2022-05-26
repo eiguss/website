@@ -8,10 +8,10 @@
 </template>
 
 <script>
-import baseImage from '~/components/home/base-image.vue';
-import customersCards from '~/components/home/customers-cards.vue';
-import ourAccomodations from '~/components/home/our-accomodations.vue';
-import partners from '~/components/home/partners.vue';
+import baseImage from '~/components/home-sections/base-image.vue';
+import customersCards from '~/components/home-sections/customers-cards.vue';
+import ourAccomodations from '~/components/home-sections/our-accomodations.vue';
+import partners from '~/components/home-sections/partners.vue';
 export default {
     components: {
         baseImage,
