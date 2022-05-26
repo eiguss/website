@@ -1,7 +1,7 @@
 <template>
     <div class="home-page">
         <base-image></base-image>
-        <customers-cards></customers-cards>
+        <customers-info></customers-info>
         <our-accomodations></our-accomodations>
         <partners></partners>
     </div>
@@ -9,13 +9,13 @@
 
 <script>
 import baseImage from '~/components/home-sections/base-image.vue';
-import customersCards from '~/components/home-sections/customers-cards.vue';
+import customersInfo from '~/components/home-sections/customers-info.vue';
 import ourAccomodations from '~/components/home-sections/our-accomodations.vue';
 import partners from '~/components/home-sections/partners.vue';
 export default {
     components: {
         baseImage,
-        customersCards,
+        customersInfo,
         ourAccomodations,
         partners,
     },
