@@ -1,19 +1,26 @@
 <template>
-    <div class="section landlords__base-image">
-        <v-img
-            max-height="800"
-            min-height="650"
-            :src="require('@/assets/images/home/home.jpg')"
-        >
-            <div class="title-img">
-                <h1>{{$t('home.title')}}</h1>
-            </div>
-        </v-img>
+    <div class="landlords">
+        <base-image></base-image>
+        <landlords-text></landlords-text>
+        <owners-solutions></owners-solutions>
+        <owners-guarantee></owners-guarantee>
+        <landlords-form id="landlords-form"></landlords-form>
     </div>
 </template>
 
 <script>
-import { mapGetters } from 'vuex';
+import baseImage from '~/components/landlords-sections/base-image.vue';
+import landlordsText from '~/components/landlords-sections/text.vue';
+import ownersSolutions from '~/components/landlords-sections/owners-solutions.vue';
+import ownersGuarantee from '~/components/landlords-sections/guarantee.vue';
+import landlordsForm from '~/components/landlords-sections/form.vue';
 export default {
-};
+    components: {
+        baseImage,
+        landlordsText,
+        ownersSolutions,
+        ownersGuarantee,
+        landlordsForm,
+    },
+}
 </script>

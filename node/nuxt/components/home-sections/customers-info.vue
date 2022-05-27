@@ -4,7 +4,7 @@
             <customer-card
                 :img="require('@/assets/images/home/landlords.jpg')"
                 labelName="landlords"
-                buttonTo="/landords"
+                buttonTo="/landlords"
                 classImg="ml-md-auto"
             ></customer-card>
             <customer-card

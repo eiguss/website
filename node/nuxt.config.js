@@ -22,6 +22,7 @@ export default {
         '~/plugins/axios.js',
         '~/plugins/i18n.js',
         '~/plugins/maps.js',
+        '~/plugins/goto.js',
     ],
     loading: '~/components/Loading.vue',
     components: true,

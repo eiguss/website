@@ -1,3 +1,15 @@
-@media (min-width: $media-lg) {
-
+@media (max-width: $media-lg) {
+    .v-application {
+        .v-main{
+            .container{
+                .landlords{
+                    &__guarantee{
+                        &__items{
+                            padding-left: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

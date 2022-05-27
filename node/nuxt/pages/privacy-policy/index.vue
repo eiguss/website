@@ -1,5 +1,5 @@
 <template>
-    <text-page :labelsKey="labelsKey" :elements="elements" ></text-page>
+    <text-page class="section section__container" :labelsKey="labelsKey" :elements="elements" ></text-page>
 </template>
 <script>
 import textPage from '~/components/textPage.vue';

@@ -1,23 +1,14 @@
 <template>
-    <div class="about-us section section__container">
+    <div class="landlords__text section section__container">
         <text-page :labelsKey="labelsKey" :elements="elements" ></text-page>
         <v-row class="justify-center">
             <v-btn
                 depressed
                 large
                 color="primary"
-                to="/landlords"
-                class="mr-16"
+                @click="$goto('landlords-form')"
             >
-                {{$t('aboutUs.landlords')}}
-            </v-btn>
-            <v-btn
-                depressed
-                large
-                color="primary"
-                to="/search-room"
-            >
-                {{$t('aboutUs.tenants')}}
+                {{$t('landlords.textSection.button')}}
             </v-btn>
         </v-row>
     </div>
@@ -30,9 +21,8 @@ export default {
     },
     data: function () {
         return {
-            labelsKey: 'aboutUs',
+            labelsKey: 'landlords.textSection',
             elements: [
-                {type:'h1', label:'title'},
                 {type:'p', label:'paragraph1'},
                 {type:'p', label:'paragraph2'},
                 {type:'p', label:'paragraph3'},

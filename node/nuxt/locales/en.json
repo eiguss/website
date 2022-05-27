@@ -29,6 +29,42 @@
         "ourAccomodations4":"Interior room with queen bed and gallery with private bathroom",
         "partnersTitle":"Our Partners"
     },
+    "landlords":{
+        "title":"We are the ultimate property management solution",
+        "textSection": {
+            "paragraph1":"Our team of experts in the sector focuses on finding apartments with character, we reform them to adapt them to the current needs of our clients and we look for highly qualified tenants for each of the rooms.",
+            "paragraph2":"We prioritize transparency, trust and your peace of mind to offer you the maximum profitability for your accommodation",
+            "paragraph3":"We take care of all the management of the property so you can forget about the worries and enjoy your free time. And all that, at no cost to you!",
+            "paragraph4":"Do you dare to take the step?",
+            "button":"I want to rent my property"
+        },
+        "ownerSolutions":{
+            "title": "Advantages we offer",
+            "solution1Title":"TIME",
+            "solution1Description":"We take care of the complete management of your property.",
+            "solution2Title":"INTERIOR DESIGN PROJECT",
+            "solution2Description":"We reform and adapt the properties.",
+            "solution3Title":"CLIENTS",
+            "solution3Description":"We are looking for highly qualified clients for each room.",
+            "solution4Title":"PROFITABILITY",
+            "solution4Description":"We guarantee an extra profitability in the price of the rent of your apartment.",
+            "solution5Title":"LEGAL",
+            "solution5Description":"We have a specialized agency for all legal procedures.",
+            "solution6Title":"MAINTENANCE",
+            "solution6Description":"We manage the repair of all possible damages caused."
+        },
+        "guarantee":{
+            "item1":"Payment of the rent guaranteed for the owner.",
+            "item2":"We take out rent payment insurance in the name of the owner.",
+            "item3":"We take out home insurance for the content and for the continent.",
+            "item4":"We work with highly qualified tenants.",
+            "item5":"We take care of the conservation of the good condition of your property.",
+            "item6":"We work with long-term contracts verified by an agency."
+        },
+        "form":{
+            "title": "Contact Form"
+        }
+    },
     "termsConditions": {
         "title": "Terms and conditions",
         "subTitle1": "Comunicación vía online",

@@ -29,6 +29,42 @@
         "ourAccomodations4":"Habitación interior con cama doble y baño privado",
         "partnersTitle":"Nuestros Partners"
     },
+    "landlords":{
+        "title":"Somos la solución definitiva de gestión de inmuebles",
+        "textSection": {
+            "paragraph1":"Nuestro equipo de expertos en el sector se enfoca en encontrar pisos con carácter, los reformamos para adaptarlos a las necesidades actuales de nuestros clientes y buscamos a inquilinos altamente cualificados para cada una de las habitaciones.",
+            "paragraph2":"Priorizamos la transparencia, la confianza y tu tranquilidad para ofrecerte la máxima rentabilidad por tu alojamiento.",
+            "paragraph3":"Nos encargamos de toda la gestión del inmueble para que puedas olvidarte de las preocupaciones y disfrutar de tu tiempo libre. Y todo eso, sin ningún coste para ti!",
+            "paragraph4":"¿Te animas a dar el paso?",
+            "button":"Quiero alquilar mi propiedad"
+        },
+        "ownerSolutions":{
+            "title": "Ventajas que te ofrecemos",
+            "solution1Title":"TIEMPO",
+            "solution1Description":"Nosotros nos encargamos de la gestión completa de tu inmueble.",
+            "solution2Title":"PROYECTO DE INTERIORISMO",
+            "solution2Description":"Reformamos y adecuamos los inmuebles.",
+            "solution3Title":"CLIENTES",
+            "solution3Description":"Buscamos a clientes altamente cualificados para cada habitación.",
+            "solution4Title":"RENTABILIDAD",
+            "solution4Description":"Te garantizamos una rentabilidad extra en el precio de la renta de tu piso.",
+            "solution5Title":"LEGAL",
+            "solution5Description":"Contamos con una gestoría especializada para todos los trámites legales.",
+            "solution6Title":"MANTENIMIENTO",
+            "solution6Description":"Gestionamos la reparación de todos los posibles daños ocasionados."
+        },
+        "guarantee":{
+            "item1":"Pago de la renta garantizado para el propietario.",
+            "item2":"Contratamos un seguro de pago del alquiler a nombre del propietario.",
+            "item3":"Contratamos un seguro de hogar para el contenido y para el continente.",
+            "item4":"Trabajamos con inquilinos altamente cualificados.",
+            "item5":"Nos encargamos de la conservación del buen estado de tu inmueble.",
+            "item6":"Trabajamos con contratos de larga duración verificados por una gestoría."
+        },
+        "form":{
+            "title": "Formulario de contacto"
+        }
+    },
     "termsConditions": {
         "title": "Términos y condiciones",
         "subTitle1": "Comunicación vía online",
