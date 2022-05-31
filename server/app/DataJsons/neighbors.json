@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "name": "L’Eixample",
+        "city": "Barcelona",
+        "country": "ESP"
+    },
+    {
+        "id": 2,
+        "name": "Fort Pienc",
+        "city": "Barcelona",
+        "country": "ESP"
+    }
+]

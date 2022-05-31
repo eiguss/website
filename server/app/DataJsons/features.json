@@ -1,0 +1,257 @@
+[
+    {
+        "id": 1,
+        "name": "1 Habitacion",
+        "image": "1_habitacion.png"
+    },
+    {
+        "id": 2,
+        "name": "2 Habitaciones",
+        "image": "2_habitaciones.png"
+    },
+    {
+        "id": 3,
+        "name": "3 Habitaciones",
+        "image": "3_habitaciones.png"
+    },
+    {
+        "id": 4,
+        "name": "4 habitaciones",
+        "image": "4_habitaciones.png"
+    },
+    {
+        "id": 5,
+        "name": "5 Habitaciones",
+        "image": "5_habitaciones.png"
+    },
+    {
+        "id": 6,
+        "name": "6 Habitaciones",
+        "image": "6_habitaciones.png"
+    },
+    {
+        "id": 7,
+        "name": "7 Habitaciones",
+        "image": "7_habitaciones.png"
+    },
+    {
+        "id": 8,
+        "name": "50 Metros cuadrados",
+        "image": "50_metros_cuadrados.png"
+    },
+    {
+        "id": 9,
+        "name": "55 Metros cuadrados",
+        "image": "55_metros_cuadrados.png"
+    },
+    {
+        "id": 10,
+        "name": "60 Metros cuadrados",
+        "image": "60_metros_cuadrados.png"
+    },
+    {
+        "id": 11,
+        "name": "65 Metros cuadrados",
+        "image": "65_metros_cuadrados.png"
+    },
+    {
+        "id": 12,
+        "name": "70 Metros cuadrados",
+        "image": "70_metros_cuadrados.png"
+    },
+    {
+        "id": 13,
+        "name": "75 Metros cuadrados",
+        "image": "75_metros_cuadrados.png"
+    },
+    {
+        "id": 14,
+        "name": "80 Metros cuadrados",
+        "image": "80_metros_cuadrados.png"
+    },
+    {
+        "id": 15,
+        "name": "85 Metros cuadrados",
+        "image": "85_metros_cuadrados.png"
+    },
+    {
+        "id": 16,
+        "name": "90 Metros cuadrados",
+        "image": "90_metros_cuadrados.png"
+    },
+    {
+        "id": 17,
+        "name": "95 Metros cuadrados",
+        "image": "95_metros_cuadrados.png"
+    },
+    {
+        "id": 18,
+        "name": "100 Metros cuadrados",
+        "image": "100_metros_cuadrados.png"
+    },
+    {
+        "id": 19,
+        "name": "Aire acondicionado",
+        "image": "aire_acondicionado.png"
+    },
+    {
+        "id": 20,
+        "name": "Armario",
+        "image": "armario.png"
+    },
+    {
+        "id": 21,
+        "name": "Aseo privado",
+        "image": "aseo_privado.png"
+    },
+    {
+        "id": 22,
+        "name": "Balcon",
+        "image": "balcon.png"
+    },
+    {
+        "id": 23,
+        "name": "Bano privado",
+        "image": "bano_privado.png"
+    },
+    {
+        "id": 24,
+        "name": "Banos",
+        "image": "banos.png"
+    },
+    {
+        "id": 25,
+        "name": "Calefaccion central",
+        "image": "calefaccion_central.png"
+    },
+    {
+        "id": 26,
+        "name": "Calefactor",
+        "image": "calefactor.png"
+    },
+    {
+        "id": 27,
+        "name": "Cama doble",
+        "image": "cama_doble.png"
+    },
+    {
+        "id": 28,
+        "name": "Cama individual extensible",
+        "image": "cama_individual_extensible.png"
+    },
+    {
+        "id": 29,
+        "name": "Cama individual",
+        "image": "cama_individual.png"
+    },
+    {
+        "id": 30,
+        "name": "Cocina equipada",
+        "image": "cocina_equipada.png"
+    },
+    {
+        "id": 31,
+        "name": "Comoda con cajones",
+        "image": "comoda_con_cajones.png"
+    },
+    {
+        "id": 32,
+        "name": "Dos camas idividuales",
+        "image": "dos_camas_individuales.png"
+    },
+    {
+        "id": 33,
+        "name": "Escritorio",
+        "image": "escritorio.png"
+    },
+    {
+        "id": 34,
+        "name": "Espejo",
+        "image": "espejo.png"
+    },
+    {
+        "id": 35,
+        "name": "Estantes",
+        "image": "estantes.png"
+    },
+    {
+        "id": 36,
+        "name": "Galeria",
+        "image": "galeria.png"
+    },
+    {
+        "id": 37,
+        "name": "Habitacion con cerradura",
+        "image": "habitacion_con_cerradura.png"
+    },
+    {
+        "id": 38,
+        "name": "Portero en el edificio",
+        "image": "portero_en_el_edificio.png"
+    },
+    {
+        "id": 39,
+        "name": "Prohibidas las mascotas",
+        "image": "prohibidas_las_mascotas.png"
+    },
+    {
+        "id": 40,
+        "name": "Prohibido fumar",
+        "image": "prohibido_fumar.png"
+    },
+    {
+        "id": 41,
+        "name": "Ropa de cama",
+        "image": "ropa_de_cama.png"
+    },
+    {
+        "id": 42,
+        "name": "Sala de estar privada",
+        "image": "sala_de_estar_privada.png"
+    },
+    {
+        "id": 43,
+        "name": "Servicio de limpieza",
+        "image": "servicio_de_limpieza.png"
+    },
+    {
+        "id": 44,
+        "name": "Sillon",
+        "image": "sillon.png"
+    },
+    {
+        "id": 45,
+        "name": "Sofa cama",
+        "image": "sofa_cama.png"
+    },
+    {
+        "id": 46,
+        "name": "Suministros",
+        "image": "suministros.png"
+    },
+    {
+        "id": 47,
+        "name": "Televisor",
+        "image": "televisor.png"
+    },
+    {
+        "id": 48,
+        "name": "Terraza",
+        "image": "terraza.png"
+    },
+    {
+        "id": 49,
+        "name": "Ventilador",
+        "image": "ventilador.png"
+    },
+    {
+        "id": 50,
+        "name": "Wifi",
+        "image": "wifi.png"
+    },
+    {
+        "id": 51,
+        "name": "Zapatero",
+        "image": "zapatero.png"
+    }
+]

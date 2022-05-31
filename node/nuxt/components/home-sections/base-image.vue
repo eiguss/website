@@ -8,7 +8,7 @@
             <div class="title-img">
                 <h1>{{$t('home.title')}}</h1>
             </div>
-            <!-- <date-pickers></date-pickers> -->
+            <!--<date-pickers></date-pickers> -->
         </v-img>
     </div>
 </template>

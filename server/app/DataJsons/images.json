@@ -1,0 +1,230 @@
+[
+    {
+        "id": "1",
+        "advertisement": true,
+        "description": "salon 1",
+        "name": "P0_CA_1.jpg"
+    },
+    {
+        "id": "2",
+        "advertisement": false,
+        "description": "salon 2",
+        "name": "P0_CA_2.jpg"
+    },
+    {
+        "id": "3",
+        "advertisement": false,
+        "description": "salon 3",
+        "name": "P0_CA_3.jpg"
+    },
+    {
+        "id": "4",
+        "advertisement": true,
+        "description": "salon 4",
+        "name": "P0_CA_4.jpg"
+    },
+    {
+        "id": "5",
+        "advertisement": true,
+        "description": "salon 5",
+        "name": "P0_CA_5.jpg"
+    },
+    {
+        "id": "6",
+        "advertisement": false,
+        "description": "cocina 1",
+        "name": "P0_CA_6.jpg"
+    },
+    {
+        "id": "7",
+        "advertisement": true,
+        "description": "cocina 2",
+        "name": "P0_CA_7.jpg"
+    },
+    {
+        "id": "8",
+        "advertisement": false,
+        "description": "recibidor 1",
+        "name": "P0_CA_8.jpg"
+    },
+    {
+        "id": "9",
+        "advertisement": false,
+        "description": "recibidor 2",
+        "name": "P0_CA_9.jpg"
+    },
+    {
+        "id": "10",
+        "advertisement": false,
+        "description": "lavanderia 1",
+        "name": "P0_CA_10.jpg"
+    },
+    {
+        "id": "11",
+        "advertisement": true,
+        "description": "bano 1",
+        "name": "P0_CA_11.jpg"
+    },
+    {
+        "id": "12",
+        "advertisement": false,
+        "description": "bano 2",
+        "name": "P0_CA_12.jpg"
+    },
+    {
+        "id": "13",
+        "advertisement": false,
+        "description": "galeria 1",
+        "name": "P0_CA_13.jpg"
+    },
+    {
+        "id": "14",
+        "advertisement": true,
+        "description": "galeria 2",
+        "name": "P0_CA_14.jpg"
+    },
+    {
+        "id": "15",
+        "advertisement": false,
+        "description": "galeria 3",
+        "name": "P0_CA_15.jpg"
+    },
+    {
+        "id": "16",
+        "advertisement": false,
+        "description": "galeria 4",
+        "name": "P0_CA_16.jpg"
+    },
+    {
+        "id": "17",
+        "advertisement": true,
+        "description": "habitacion 1",
+        "name": "P0_H1_1.jpg"
+    },
+    {
+        "id": "18",
+        "advertisement": false,
+        "description": "habItacion 2",
+        "name": "P0_H1_2.jpg"
+    },
+    {
+        "id": "19",
+        "advertisement": true,
+        "description": "habitacion 3",
+        "name": "P0_H1_3.jpg"
+    },
+    {
+        "id": "20",
+        "advertisement": true,
+        "description": "salon 1",
+        "name": "P1_CA_1.jpg"
+    },
+    {
+        "id": "21",
+        "advertisement": true,
+        "description": "salon 2",
+        "name": "P1_CA_2.jpg"
+    },
+    {
+        "id": "22",
+        "advertisement": false,
+        "description": "salon 3",
+        "name": "P1_CA_3.jpg"
+    },
+    {
+        "id": "23",
+        "advertisement": true,
+        "description": "vistas 1",
+        "name": "P1_CA_4.jpg"
+    },
+    {
+        "id": "24",
+        "advertisement": false,
+        "description": "vistas 2",
+        "name": "P1_CA_5.jpg"
+    },
+    {
+        "id": "25",
+        "advertisement": true,
+        "description": "cocina 1",
+        "name": "P1_CA_6.jpg"
+    },
+    {
+        "id": "26",
+        "advertisement": true,
+        "description": "cocina 2",
+        "name": "P1_CA_7.jpg"
+    },
+    {
+        "id": "27",
+        "advertisement": true,
+        "description": "habitacion 1 1",
+        "name": "P1_H1_1.jpg"
+    },
+    {
+        "id": "28",
+        "advertisement": false,
+        "description": "habitacion 1 2",
+        "name": "P1_H1_2.jpg"
+    },
+    {
+        "id": "29",
+        "advertisement": false,
+        "description": "habitacion 1 3",
+        "name": "P1_H1_3.jpg"
+    },
+    {
+        "id": "30",
+        "advertisement": true,
+        "description": "habitacion 1 4",
+        "name": "P1_H1_4.jpg"
+    },
+    {
+        "id": "31",
+        "advertisement": true,
+        "description": "habitacion 1 bano 1",
+        "name": "P1_H1_5.jpg"
+    },
+    {
+        "id": "32",
+        "advertisement": false,
+        "description": "habitacion 1 bano 2",
+        "name": "P1_H1_6.jpg"
+    },
+    {
+        "id": "33",
+        "advertisement": true,
+        "description": "habitacion 2 1",
+        "name": "P1_H2_1.jpg"
+    },
+    {
+        "id": "34",
+        "advertisement": true,
+        "description": "habitacion 2 2",
+        "name": "P1_H2_2.jpg"
+    },
+    {
+        "id": "35",
+        "advertisement": true,
+        "description": "habitacion 2 3",
+        "name": "P1_H2_3.jpg"
+    },
+    {
+        "id": "36",
+        "advertisement": true,
+        "description": "habitacion 2 vistas 1",
+        "name": "P1_H2_4.jpg"
+    },
+    {
+        "id": "37",
+        "advertisement": false,
+        "description": "habitacion 2 vistas 2",
+        "name": "P1_H2_5.jpg"
+    },
+    {
+        "id": "38",
+        "advertisement": true,
+        "description": "habitacion 2 bano 1",
+        "name": "P1_H2_6.jpg"
+    }
+]

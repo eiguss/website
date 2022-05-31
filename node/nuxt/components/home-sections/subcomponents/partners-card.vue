@@ -1,7 +1,8 @@
 <template>
     <v-col
         md="3"
-        cols="6"
+        sm="6"
+        cols="12"
     >
         <a href="url" target="_blank">
             <v-img 
