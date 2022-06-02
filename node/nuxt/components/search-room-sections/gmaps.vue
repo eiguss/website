@@ -49,6 +49,7 @@
                     >
                         <v-card
                             class="mx-auto search-room__maps__room"
+                            v-bind:class="{ moreThanOne: marker.rooms.length>1 }"
                             width="325px"
                         >
                             <v-img
