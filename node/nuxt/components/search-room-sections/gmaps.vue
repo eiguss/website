@@ -43,6 +43,7 @@
                         >{{$t("searchRoom.gmaps.nextButton")}}</v-btn>
                     </template>
                     <v-carousel-item
+                        class="v-carousel__img"
                         v-for="roomId in marker.rooms"
                         :key="roomId"
                         height="100%"
@@ -52,18 +53,39 @@
                             v-bind:class="{ moreThanOne: marker.rooms.length>1 }"
                             width="325px"
                         >
-                            <v-img
+                            <v-carousel
+                                hide-delimiter-background
                                 height="240px"
-                                class="search-room__maps__room__image"
-                                :src="require('@/assets/json-images/rooms/'+rooms[roomId].image)"
-                            ></v-img>
+                            >
+                                <v-carousel-item
+                                    height="240px"
+                                >
+                                    <v-img 
+                                        height="240px"
+                                        class="search-room__rooms_list__room__image"
+                                        :src="require('@/assets/json-images/rooms/'+rooms[roomId].image)"
+                                    ></v-img>
+                                </v-carousel-item>
+                                <v-carousel-item
+                                    height="240px"
+                                    v-for="image in rooms[roomId].images"
+                                    :key="image.id"
+                                    v-if="image.advertisement"
+                                >
+                                    <v-img 
+                                        height="240px"
+                                        class="search-room__rooms_list__room__image"
+                                        :src="require('@/assets/json-images/rooms/'+image.name)"
+                                    ></v-img>
+                                </v-carousel-item>
+                            </v-carousel>
                             <v-card-title class="text--primary">
                                 <div class="text--primary">
                                     {{rooms[roomId].title}}
                                 </div>
                             </v-card-title>
                             <v-card-subtitle>
-                                {{rooms[roomId].price}}€ / month
+                                {{rooms[roomId].price}}{{$t("searchRoom.price")}}
                             </v-card-subtitle>
                         </v-card>
                     </v-carousel-item>

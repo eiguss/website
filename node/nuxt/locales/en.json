@@ -116,6 +116,7 @@
         "tenants":"Tenants"
     },
     "searchRoom":{
+        "price":"€ / month",
         "gmaps":{
             "nextButton":"Next room",
             "prevButton":"Previous room"

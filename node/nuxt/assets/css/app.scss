@@ -52,6 +52,18 @@
                                 box-shadow: inset 0 0 0 1000px rgb(0 0 0 / 10%);
                             }
                         }
+                        .v-carousel{
+                            &__controls{
+                                &__item{
+                                    height: 16px;
+                                    width: 16px;
+                                    margin: 0 -2px;
+                                    .v-icon{
+                                        font-size: 10px!important;
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
                 &__maps{
@@ -70,10 +82,10 @@
                     .v-carousel{
                         &__controls{
                             &__item{
-                                color: #5952AB;
+                                color: white;
                                 height: 18px;
                                 width: 18px;
-                                margin: 0 2px;
+                                margin: 0 -2px;
                                 .v-icon{
                                     font-size: 12px!important;
                                 }
@@ -92,6 +104,19 @@
                         }
                         .v-card{
                             box-shadow: none;
+                        }
+                        &__img{
+                            .v-window__next,
+                            .v-window__prev{
+                                bottom: auto;
+                                top: calc(50% - 20px);
+                                .v-btn{
+                                    background-image: none;
+                                    &:hover{
+                                        background-image: none;
+                                    }
+                                }
+                            }
                         }
                     }
                 }
