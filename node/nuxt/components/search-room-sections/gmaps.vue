@@ -3,7 +3,7 @@
         :center="center"
         :zoom="13"
         map-type-id="terrain"
-        style="width: 100%; height: 100%"
+        style="width: 100%; height: 90vh"
     >
         <GmapMarker
             :key="index"
@@ -11,6 +11,11 @@
             :position="m.position"
             :clickable="true"
             :draggable="true"
+            :icon="{ 
+                url: require('@/assets/images/marker.png'), 
+                size: {width: 46, height: 46, f: 'px', b: 'px'},
+                scaledSize: {width: 46, height: 46, f: 'px', b: 'px'}
+            }"
             @click="clickMarker(m)"
         />
     </GmapMap>

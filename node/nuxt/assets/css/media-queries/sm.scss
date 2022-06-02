@@ -1,2 +1,13 @@
 @media (max-width: $media-sm) {
+    .v-application {
+        .v-main{
+            .container{
+                .search-room{
+                    &__maps{
+                        padding: 20px;
+                    }
+                }
+            }
+        }
+    }
 }

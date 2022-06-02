@@ -2,7 +2,9 @@
     <div class="search-room">
         <v-row>
             <v-col
-                sm="6"
+                xl="3"
+                lg="5"
+                md="6"
                 cols="12"
                 class="search-room__rooms_list"
             >
@@ -10,33 +12,30 @@
                     <v-col
                         v-for="room in rooms"
                         :key="room.id"
-                        xl="3"
                         sm="6"
                         cols="12"
                     >
                         <v-card
-                            class="mx-auto"
+                            class="mx-auto search-room__rooms_list__room"
                             height="100%"
                         >
-                            <v-img :src="require('@/assets/json-images/rooms/'+room.image)"></v-img>
+                            <v-img height="240px" class="search-room__rooms_list__room__image" :src="require('@/assets/json-images/rooms/'+room.image)"></v-img>
                             <v-card-title class="text--primary">
                                 <div class="text--primary">
                                     {{room.title}}
                                 </div>
                             </v-card-title>
-
                             <v-card-subtitle>
                                 {{room.price}}€ / month
                             </v-card-subtitle>
-                            <v-card-text class="text--primary">
-                                <div>{{room.description}}</div>
-                            </v-card-text>
                         </v-card>
                     </v-col>
                 </v-row>
             </v-col>
             <v-col
-                sm="6"
+                xl="9"
+                lg="7"
+                md="6"
                 cols="12"
                 class="search-room__maps"
             >
