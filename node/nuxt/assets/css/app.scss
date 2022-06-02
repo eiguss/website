@@ -58,6 +58,42 @@
                     padding-top: 20px;
                     padding-left: 0px;
                     min-height: 500px;
+                    &__room{
+                        padding-bottom: 30px;
+                    }
+                    .gm-style-iw.gm-style-iw-c{
+                        padding: 0;
+                        .gm-style-iw-d{
+                            margin: 0 -18px -15px 0px;
+                        }
+                    }
+                    .v-carousel{
+                        &__controls{
+                            &__item{
+                                color: #5952AB;
+                                height: 18px;
+                                width: 18px;
+                                margin: 0 2px;
+                                .v-icon{
+                                    font-size: 12px!important;
+                                }
+                            }
+                        }
+                        .v-window__next,
+                        .v-window__prev{
+                            bottom: 15px;
+                            top: auto;
+                            .v-btn{
+                                background-image: -webkit-linear-gradient(63deg,$complementary , $complementaryGradient);
+                                &:hover{
+                                    background-image: -webkit-linear-gradient(63deg,$complementaryB , $complementaryBGradient);
+                                }
+                            }
+                        }
+                        .v-card{
+                            box-shadow: none;
+                        }
+                    }
                 }
                 .v-card__title{
                     word-break: break-word;

@@ -7,28 +7,80 @@
     >
         <GmapMarker
             :key="index"
-            v-for="(m, index) in markers"
-            :position="m.position"
+            v-for="(marker, index) in markers"
+            :position="marker.position"
             :clickable="true"
             :draggable="true"
-            :icon="{ 
-                url: require('@/assets/images/marker.png'), 
-                size: {width: 46, height: 46, f: 'px', b: 'px'},
-                scaledSize: {width: 46, height: 46, f: 'px', b: 'px'}
-            }"
-            @click="clickMarker(m)"
-        />
+            :icon="markerIcon"
+            @click="toggleInfoWindow(marker,index)">
+        >
+            <gmap-info-window
+                :options="{pixelOffset: {height: -2}}"
+                :position="marker.position"
+                :opened="infoMarkerIdOpened==index"
+                @closeclick="infoMarkerIdOpened=null"
+            >
+                <v-carousel
+                    :continuous="false"
+                    hide-delimiter-background
+                    hide-delimiters
+                    height="100%"
+                >
+                    <template v-slot:prev="{ on, attrs }">
+                        <v-btn
+                            color="success"
+                            v-bind="attrs"
+                            v-on="on"
+                            x-small
+                        >{{$t("searchRoom.gmaps.prevButton")}}</v-btn>
+                    </template>
+                    <template v-slot:next="{ on, attrs }">
+                        <v-btn
+                            color="info"
+                            v-bind="attrs"
+                            v-on="on"
+                            x-small
+                        >{{$t("searchRoom.gmaps.nextButton")}}</v-btn>
+                    </template>
+                    <v-carousel-item
+                        v-for="roomId in marker.rooms"
+                        :key="roomId"
+                        height="100%"
+                    >
+                        <v-card
+                            class="mx-auto search-room__maps__room"
+                            width="325px"
+                        >
+                            <v-img
+                                height="240px"
+                                class="search-room__maps__room__image"
+                                :src="require('@/assets/json-images/rooms/'+rooms[roomId].image)"
+                            ></v-img>
+                            <v-card-title class="text--primary">
+                                <div class="text--primary">
+                                    {{rooms[roomId].title}}
+                                </div>
+                            </v-card-title>
+                            <v-card-subtitle>
+                                {{rooms[roomId].price}}€ / month
+                            </v-card-subtitle>
+                        </v-card>
+                    </v-carousel-item>
+                </v-carousel>
+            </gmap-info-window>
+        </GmapMarker>
     </GmapMap>
 </template>
 <script>
 import { mapGetters, mapActions } from 'vuex';
 export default {
-    async asyncData({ store }) {
-        await Promise.all([
-            store.dispatch('rooms/getRooms'),
-        ]);
-    },
     data: () => ({
+        infoMarkerIdOpened: null,
+        markerIcon: { 
+            url: require('@/assets/images/marker.png'), 
+            size: {width: 46, height: 46, f: 'px', b: 'px'},
+            scaledSize: {width: 46, height: 46, f: 'px', b: 'px'}
+        },
     }),
     computed: {
         ...mapGetters('rooms', {
@@ -74,9 +126,14 @@ export default {
         }
     },
     methods: {
-        clickMarker(marker){
-            console.log(marker);
-        }
+        toggleInfoWindow(marker, index){
+            if (this.infoMarkerIdOpened == index) {
+                this.infoMarkerIdOpened = null;
+            }
+            else {
+                this.infoMarkerIdOpened = index;
+            }
+        },
     }
 };
 </script>

@@ -114,5 +114,11 @@
         "paragraph4":"Nacimos para llevar el alojamiento de calidad al siguiente nivel, para que juntos podamos cambiar el mundo.",
         "landlords":"Landlords",
         "tenants":"Tenants"
+    },
+    "searchRoom":{
+        "gmaps":{
+            "nextButton":"Habitación siguiente",
+            "prevButton":"Habitación anterior"
+        }
     }
 }

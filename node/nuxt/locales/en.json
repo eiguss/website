@@ -114,5 +114,11 @@
         "paragraph4":"We were born to take quality accommodation to the next level, so that together we can change the world.",
         "landlords":"Landlords",
         "tenants":"Tenants"
+    },
+    "searchRoom":{
+        "gmaps":{
+            "nextButton":"Next room",
+            "prevButton":"Previous room"
+        }
     }
 }
