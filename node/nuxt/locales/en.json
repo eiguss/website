@@ -120,6 +120,25 @@
         "gmaps":{
             "nextButton":"Next room",
             "prevButton":"Previous room"
+        },
+        "room":{
+            "allServicesIncluded":"Services included",
+            "aboutRoom":"About the room",
+            "aboutApartment":"About the apartment",
+            "aboutLocation":"About the location",
+            "servicesApartment":"Features of the accommodation",
+            "servicesRoom":"Features of the room",
+            "reservationInfo":{
+                "title": "¡Book your room now!",
+                "dateEntry": "Entry",
+                "dateExit": "Exit",
+                "numberOfGuest": "Number of guest",
+                "monthlyRent": "Monthly Rent",
+                "securityDeposit": "Security Deposit",
+                "manageCosts": "Management Costs",
+                "firstPayment": "First Total Payment",
+                "contactButton": "Contact us"
+            }
         }
     }
 }

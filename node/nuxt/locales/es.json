@@ -108,7 +108,7 @@
     },
     "aboutUs":{
         "title": "Sobre nosotros",
-        "paragraph1":"Atika Rooms fue creada en 2022 con el objetivo de garantizar el acceso a alojamiento de calidad con servicios, a a gente de todo el mundo para que vayas donde vayas, te sientas como en casa y disfrutes al máximo de tus experiencias. ",
+        "paragraph1":"Atika Rooms fue creada en 2022 con el objetivo de garantizar el acceso a alojamiento de calidad en viviendas compartidas con todo incluido, a gente de todo el mundo para que vayas donde vayas, te sientas como en casa y disfrutes al máximo de tus experiencias. ",
         "paragraph2":"Somos una plataforma enfocada a ofrecer alojamiento de calidad que satisface todo tipo de necesidades que puedas tener. Desde la necesidad de tener el mejor wifi del mercado como la necesidad de tener un balcón propio y privado donde poder pasar las tardes de verano o tomar el sol. ",
         "paragraph3":"En Atika Rooms, creemos que hay pocas cosas más emocionantes y enriquecedoras que vivir nuevas experiencias y aventuras alrededor del mundo, y nosotros queremos ayudarte a vivirlas, donde quieras y como quieras!  ",
         "paragraph4":"Nacimos para llevar el alojamiento de calidad al siguiente nivel, para que juntos podamos cambiar el mundo.",
@@ -120,6 +120,25 @@
         "gmaps":{
             "nextButton":"Habitación siguiente",
             "prevButton":"Habitación anterior"
+        },
+        "room":{
+            "allServicesIncluded":"Servicios incluidos",
+            "aboutRoom":"Sobre esta habitación",
+            "aboutApartment":"Sobre el apartamento",
+            "aboutLocation":"Sobre la ubicación",
+            "servicesApartment":"Características del alojamiento",
+            "servicesRoom":"Características de la habitación",
+            "reservationInfo":{
+                "title": "¡Reserva tu habitación!",
+                "dateEntry": "Entrada",
+                "dateExit": "Salida",
+                "numberOfGuest": "Número de huéspedes",
+                "monthlyRent": "Renta mensual",
+                "securityDeposit": "Deposito de seguridad",
+                "manageCosts": "Gastos de gestión",
+                "firstPayment": "Primer pago",
+                "contactButton": "Contact us"
+            }
         }
     }
 }

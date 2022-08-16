@@ -54,20 +54,44 @@
 </template>
 
 <script>
-import { mapGetters } from 'vuex';
+import { mapGetters, mapMutations } from 'vuex';
 export default {
     data: () => ({
         openedFrom: false,
         openedTo: false,
-        dateFrom: "",
-        dateTo: "",
     }),
+    computed: {
+        ...mapGetters('rooms', {
+            dateFromS: 'dateFrom',
+            dateToS: 'dateTo',
+        }),
+        dateFrom: {
+            get () {
+                return this.dateFromS;
+            },
+            set (date) {
+                this.setDateFrom(date);
+            }
+        },
+        dateTo: {
+            get () {
+                return this.dateToS;
+            },
+            set (date) {
+                this.setDateTo(date);
+            }
+        }
+    },
     watch: {
         dateFrom() {
             this.dateTo="";
         }
     },
     methods: {
+        ...mapMutations('rooms',{
+            'setDateFrom': 'SET_DATE_FROM',
+            'setDateTo': 'SET_DATE_TO',
+        }),
         choosedDateFrom(){
             setTimeout(()=>{
                 this.dateTo = this.getFromPlusOneMonth();

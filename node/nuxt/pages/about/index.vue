@@ -15,7 +15,7 @@
                 depressed
                 large
                 color="primary"
-                to="/search-room"
+                to="/rooms"
             >
                 {{$t('aboutUs.tenants')}}
             </v-btn>

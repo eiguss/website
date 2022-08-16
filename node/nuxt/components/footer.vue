@@ -49,7 +49,7 @@ export default {
     data: function () {
         return {
             footerItems: [
-                { title: 'bookYourRoom', path: '/search-room' },
+                { title: 'bookYourRoom', path: '/rooms' },
                 { title: 'landlords', path: '/landlords' },
                 { title: 'contact', path: '/contact' },
                 { title: 'termsConditions', path: '/terms-and-conditions' },

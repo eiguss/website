@@ -64,7 +64,7 @@ export default {
         return {
             navigationItems: [
                 { title: 'home', path: '/' },
-                { title: 'bookYourRoom', path: '/search-room' },
+                { title: 'bookYourRoom', path: '/rooms' },
                 { title: 'landlords', path: '/landlords' },
                 { title: 'contact', path: '/contact' },
             ],

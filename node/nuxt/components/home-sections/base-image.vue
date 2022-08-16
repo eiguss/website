@@ -13,7 +13,7 @@
     </div>
 </template>
 <script>
-import datePickers from '~/components/shared/date-pickers.vue';
+import datePickers from '~/components/rooms-filters/date-pickers.vue';
 export default {
     components: {
         datePickers,

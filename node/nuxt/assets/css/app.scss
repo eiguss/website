@@ -1,5 +1,14 @@
 .v-application {
     font-family: Poppins, "Roboto", sans-serif!important;
+    .positionRelative{
+        position: relative;
+    }
+    .positionAbsolute{
+        position: absolute;
+    }
+    .positionFixed{
+        position: fixed;
+    }
     .row{
         margin: 0px;
     }
@@ -178,6 +187,45 @@
                         margin-left: auto;
                         padding: 60px 60px 60px 0px;
                         height: 100%;
+                    }
+                }
+            }
+            .room{
+                &__services__service{
+                    padding: 20px;
+                    width: 130px;
+                    &__image{
+                        height: 80px;
+                    }
+                    &__text{
+                        font-size: 14px;
+                        text-align: center;
+                        justify-content: center;
+                    }
+                }
+                &_reservation-info{
+                    position: sticky;
+                    top:100px;
+                    .v-card__title{
+                        word-break: break-word;
+                        text-align: center;
+                    }
+                    .room-prices{
+                        .row{
+                            background-color: #f9f9f9;
+                        }
+                        .total{
+                            background-color: #f1f1f1;
+                        }
+                        .row + .row{
+                            margin-top: 0px;
+                        }
+                        .col{
+                            padding: 5px!important;
+                        }
+                    }
+                    .contact{
+                        margin: 10px auto;
                     }
                 }
             }

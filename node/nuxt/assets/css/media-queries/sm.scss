@@ -8,6 +8,18 @@
                     }
                 }
             }
+            .room{
+                &__services__service{
+                    padding: 10px!important;
+                    width: 85px!important;
+                    &__image{
+                        height: 60px!important;
+                    }
+                    &__text{
+                        font-size: 14px;
+                    }
+                }
+            }
         }
     }
 }
